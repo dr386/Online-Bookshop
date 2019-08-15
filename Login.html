@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/LoginStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/GlobalStyle.css" />
+    <script src="js/Mainscript.js"></script>
+    <title>My Account</title>
+</head>
+
+<body onload="load_em();">
+    <div class="backimg">
+        <div class="logo">
+            <a href="main.html">
+                <div class="nav_logo" style="color:white">
+                    Awesome Bookstore
+                </div>
+                <p class="logo_decription" style="color:white">Your local bookstore</p>
+            </a>
+        </div>
+
+        <div class="navbar">
+            <div class="navbar_right">
+                <a class="login" href="Login.html">Login</a>
+                <a class="contact" href="mailto:dingr1@student.douglascollege.ca">Contact</a>
+                <a class="home" href="main.html">Home</a>
+            </div>
+        </div>
+
+        <div class="headline">
+            <h1>My Account</h1>
+        </div>
+
+        <div class="login_container">
+            <div class="form_container" id="form_container" style="display:block;">
+                <h2>Login</h2>
+                <form class="login" name="loginform" action="action.php" method="post" onsubmit="return false">
+                    <p>
+                        <label for="username">
+                            Username or email address
+                            <span class="required">*</span><br />
+                        </label>
+                        <input type="text" class="input_text" name="username" id="username" autocomplete="username" value="" >
+                    </p>
+                    <p>
+                        <label for="password">
+                            Password
+                            <span class="required">*</span><br />
+                        </label>
+                        <input type="password" class="input_text" name="password" id="password" autocomplete="password" value="" >
+                    </p>
+                    <p>
+                        <button type="submit" class="login_submit" name="login" value="Log in" onclick="remember_me();">Log in</button>
+                        <label>
+                            <input class="input_checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" checked> <span>Remember me</span>
+                        </label>
+                    </p>
+                    <p>
+                        <a class="lost_password" href="ConstructionPage.html">Lost your password?</a>
+                    </p>
+                </form>
+            </div>
+            <div class="login_success" id="login_success" style="display: none;">
+                <h1>Login Success!</h1>
+                <p>
+                    <button type="button" class="jump_button" name="ok" id="ok" onClick="Skip();">OK</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="mailto:dingr1@student.douglascollege.ca">Contact Us</a></li>
+        </ul>
+        <footer>
+            &copy; All Rights Reserved by Awesome Bookstore.
+        </footer>
+    </div>
+</body>
+</html>
