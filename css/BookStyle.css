@@ -1,0 +1,233 @@
+﻿.backimg1 {
+    background-image: url(img/background1.jpg);
+    min-height: 1500px;
+}
+
+.backimg2 {
+    background-image: url(img/background2.jpg);
+    min-height: 1000px;
+}
+
+.backimg1, .backimg2 {
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Logo Style*/
+.nav_logo {
+    padding-top: 25px;
+    padding-left: 200px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.logo_decription {
+    padding-left: 330px;
+    font-size: 14px;
+}
+
+.logo a {
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/*Navigation bar Style*/
+.navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    width: 100%;
+}
+
+    .navbar img {
+        border-radius: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    .navbar a {
+        float: right;
+        padding: 5px;
+        margin-right: 45px;
+        color: #D7FFF0;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+    }
+
+        .navbar a:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+            color: rgb(232, 232, 218);
+            font-style: italic;
+            text-shadow: inherit;
+        }
+
+/*Bookstore title Style*/
+div.bookstore_title {
+    padding: 40px 0;
+    text-align: center;
+}
+
+    div.bookstore_title h1 {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 4px;
+    }
+
+/*Book Summary Style*/
+div.book_container {
+    display: inline-block;
+}
+
+.book1, .book2, .book3, .book4 {
+    padding: 0 10%;
+    width: 80%;
+}
+
+div.book_img {
+    float: left;
+    width: 44%;
+}
+
+div.book_img {
+    text-align: center;
+}
+
+div.book_summary {
+    float: right;
+    width: 56%;
+}
+
+    div.book_summary h2 {
+        padding-top: 20px;
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    div.book_summary p {
+        margin-bottom: 20px;
+        line-height: 1.786em;
+    }
+
+/*Book Detail Style*/
+div.book_detail {
+    clear: both;
+    margin: 30px 0 0;
+    padding: 40px 60px 50px;
+    border-top: 1px dashed black;
+}
+
+div.details {
+    float: left;
+    width: 40%;
+}
+
+    div.details h3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 0;
+        font-size: 26px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+
+table {
+    border: 0;
+    margin-bottom: 1.618em;
+    width: 100%;
+}
+
+    table p {
+        line-height: 1.8em;
+        padding-left: 10%;
+    }
+
+    table th {
+        width: 150px;
+        font-weight: 700;
+        padding: 8px;
+        border-top: 0;
+        margin: 0;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    table td {
+        font-style: italic;
+        padding: 0;
+        border-top: 0;
+        margin: 0;
+        line-height: 1.5;
+    }
+
+div.auther {
+    float: right;
+    width: 50%;
+}
+
+    div.auther h3 {
+        display: inline-block;
+        position: relative;
+        margin-top: 0;
+        font-size: 26px;
+        line-height: 1.35;
+        margin-bottom: 20px;
+    }
+
+    div.auther h4 {
+        margin-bottom: 5px;
+        font-size: 18px;
+        line-height: 1.8em;
+    }
+
+    div.auther p {
+        margin-bottom: 20px;
+        line-height: 1.8em;
+        padding-right: 20%;
+    }
+
+/*Description Style*/
+div.description, div.review {
+    margin: 30px 0 0;
+    clear: both;
+    padding: 0 5%;
+    width: 90%
+}
+
+    div.description, div.review p {
+        margin-bottom: 20px;
+        line-height: 1.8em;
+    }
+
+
+        div.description h3 {
+            display: inline-block;
+            padding: 1em 0;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+            font-size: 28px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+        }
+
+
+/*Reviews Style*/
+div.review {
+    margin-bottom: 50px;
+}
+
+
+    div.review h4 {
+        display: inline-block;
+        padding: 1em 0;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+    }
