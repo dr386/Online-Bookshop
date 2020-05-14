@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome To Awesome Bookstore</title>
+    <link rel="stylesheet" type="text/css" href="css/MainPageStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/GlobalStyle.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/Mainscript.js"></script>
+</head>
+
+<body onload="load_him();">
+    <div class="bgimg1">
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-inverse fixed-top navbar-trans">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">AWESOME BOOKSTORE</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#">Login</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="searchline">
+            <p>You're looking for...</p>
+            <form action="http://www.amazon.com/" method="get" id="form1">
+                <input type="text" name="sk" id="booktext" alt="search" placeholder="Book name" />
+                <input type="submit" name="" value="Search" id="button" onclick="Search();">
+            </form>
+        </div>
+    </div>
+
+    <div class="bgimg2">
+        <div class="bestsellwrapper">
+            <div class="caption">
+                <h2>
+                    Best Sellers
+                </h2>
+            </div>
+
+            <div class="bestsellers">
+                <ul class="products">
+
+                    <!-- Bestseller1 -->
+                    <li class="product">
+                        <div class="bestseller">
+                            <a href="Book1.html">
+                                <figure>
+                                    <img src="css/img/Bestseller1.jpg" alt="Where the Crawdads Sing" />
+                                </figure>
+                                <div class="pricebox">
+                                    <p class="bookname">Where the Crawdads Sing</p>
+                                    <span class="writer">Delia Owens</span>
+                                    <span class="price">
+                                        <ins>
+                                            <span>
+                                                $120.00
+                                            </span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <!-- Bestseller2 -->
+                    <li class="product">
+                        <div class="bestseller">
+                            <a href="Book2.html">
+                                <figure>
+                                    <span class="onsale">SALE!</span>
+                                    <img src="css/img/Bestseller2.jpg" alt="Becoming" />
+                                </figure>
+                                <div class="pricebox">
+                                    <p class="bookname">Becoming</p>
+                                    <span class="writer">Michelle Obama</span>
+                                    <span class="price">
+                                        <ins>
+                                            <span>
+                                                $40.00
+                                            </span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <!-- Bestseller3 -->
+                    <li class="product">
+                        <div class="bestseller">
+                            <a href="Book3.html">
+                                <figure>
+                                    <img src="css/img/Bestseller3.jpg" alt="Educated: A Memoir" />
+                                </figure>
+                                <div class="pricebox">
+                                    <p class="bookname">Educated: A Memoir</p>
+                                    <span class="writer">Tara Westover</span>
+                                    <span class="price">
+                                        <ins>
+                                            <span>
+                                                $82.00
+                                            </span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <!-- Bestseller4 -->
+                    <li class="product">
+                        <div class="bestseller">
+                            <a href="Book4.html">
+                                <figure>
+                                    <img src="css/img/Bestseller4.jpg" alt="Girl, Wash Your Face: Stop Believing the Lies About Who You Are so You Can Become Who You Were Meant to Be" />
+                                </figure>
+                                <div class="pricebox">
+                                    <p class="bookname">Girl, Wash Your Face: <br />Stop Believing the Lies About Who You Are</p>
+                                    <span class="writer">Rachel Hollis</span>
+                                    <span class="price">
+                                        <ins>
+                                            <span>
+                                                $10.00
+                                            </span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgimg3">
+        <div class="icon_column">
+            <div class="column_wrapper">
+                <div class="icon_element">
+                    <div class="icon_element_inner">
+                        <img src="css/img/bookicon.png" />
+                    </div>
+                </div>
+                <h2 class="text_heading">Tons of Books</h2>
+                <div class="text_column">
+                    <p>You can find any kinds of books in this store!</p>
+                </div>
+            </div>
+
+            <div class="column_wrapper">
+                <div class="icon_element">
+                    <div class="icon_element_inner">
+                        <img src="css/img/writericon.png" />
+                    </div>
+                </div>
+                <h2 class="text_heading">Hundreds of Authors</h2>
+                <div class="text_column">
+                    <p>Don't know the auther?<br />No worries!<br />We can help to find them!</p>
+                </div>
+            </div>
+
+            <div class="column_wrapper">
+                <div class="icon_element">
+                    <div class="icon_element_inner">
+                        <img src="css/img/bookmarkicon.png" />
+                    </div>
+                </div>
+                <h2 class="text_heading">Easily Bookmarked</h2>
+                <div class="text_column">
+                    <p>Save it for the next time? <br />You can do it easily!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="ConstructionPage.html">Blog</a></li>
+            <li><a href="ConstructionPage.html">About Us</a></li>
+            <li><a href="mailto:dingr1@student.douglascollege.ca">Contact Us</a></li>
+        </ul>
+        <footer>
+            &copy; All Rights Reserved by Awesome Bookstore.
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

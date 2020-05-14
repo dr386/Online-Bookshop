@@ -1,22 +1,22 @@
 ﻿@charset "UTF-8";
 
 /*Background Img Style for Parallax scrolling*/
-.backimg1 {
+.bgimg1 {
     background-image: url(img/background1.jpg);
     min-height: 700px;
 }
 
-.backimg2 {
+.bgimg2 {
     background-image: url(img/background2.jpg);
     min-height: 1000px;
 }
 
-.backimg3 {
+.bgimg3 {
     background-image: url(img/background3.jpg);
     min-height: 600px;
 }
 
-.backimg1, .backimg2, .backimg3 {
+.bgimg1, .bgimg2, .bgimg3 {
     position: relative;
     opacity: 0.9;
     background-attachment: fixed;
@@ -25,73 +25,13 @@
     background-size: cover;
 }
 
-/*Logo Style*/
-.nav_logo {
-    padding-top: 25px;
-    padding-left: 200px;
-    font-size: 30px;
-    line-height: 40px;
-}
-
-.logo_decription {
-    padding-left: 330px;
-    font-size: 14px;
-}
-
-.logo a {
-    text-decoration: none;
-    text-align: left;
-}
-
-
-/*Navigation bar Style*/
-.navbar {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: auto;
-    width: 100%;
-}
-
-    .navbar img {
-        border-radius: 30%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 20px;
-    }
-
-    .navbar a {
-        float: right;
-        padding: 5px;
-        margin-right: 45px;
-        color: #D7FFF0;
-        text-decoration: none;
-        font-size: 20px;
-        text-align: center;
-    }
-
-        .navbar a:hover {
-            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-            color: rgb(232, 232, 218);
-            font-style: italic;
-            text-shadow: inherit;
-        }
-
-div.login_result {
-    float: left;
-}
-
-.login_result p {
-    text-align: right;
-    padding-right: 10%;
-}
-
 /*Search bar Style*/
 .searchline {
     text-align: center;
 }
 
     .searchline p {
-        padding: 7% 0 5% 0;
+        padding: 10% 0 5% 0;
         font-size: 2em;
         font-family: Comic Sans MS, sans-serif;
         text-align: center;
